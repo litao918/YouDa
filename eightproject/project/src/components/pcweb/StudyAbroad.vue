@@ -277,9 +277,10 @@ export default {
             color: #573E41;
             text-decoration:none;
         }
-       div:hover{
-            background: #eee;
+         a:hover{
+            color: #EF3434;
         }
+       
        
     }
     .opo{
@@ -300,8 +301,8 @@ export default {
             line-height: 40px;
 
         }
-        div:hover{
-            color: #EF3434;
+       div:hover{
+            background: #eee;
         }
         
     }

@@ -117,7 +117,7 @@
       </div>
       <div>
         <div
-          style="margin-left:30px;background:#fff;width:60px;height:130px; border-radius:14px;text-align: center;box-shadow:1px 1px 5px #D9D9D9,1px -1px 5px #D9D9D9,-1px 1px 5px #D9D9D9,-1px -1px 5px #D9D9D9;"
+          style="margin-left:30px;background:#fff;width:60px;height:127px; border-radius:14px;text-align: center;box-shadow:1px 1px 5px #D9D9D9,1px -1px 5px #D9D9D9,-1px 1px 5px #D9D9D9,-1px -1px 5px #D9D9D9;"
         >
           <div class="dinebtn" @click="dianjiyi(1)" :style="clickid==1 ? 'background:#eee;' : '' ">
             <img

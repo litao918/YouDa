@@ -221,7 +221,7 @@
                           <div></div>
                     </div>
 
-                     <div class="sb2">
+                     <div class="sb2 ">
                           <div class="sb" >
                             <div class="gyanxuan3 mr20" style="height:30px;width:30px;"></div>
                             <div class="zizhi" style="height:120px;width:220px;">
@@ -574,7 +574,6 @@ export default {
   box-shadow: #cccccc 0px 15px 32px 0px;
   position: absolute;
   top:-10px;
- 
 }
 </style>
 
