@@ -92,7 +92,7 @@
                                 <div style="color:#393939;font-size:18px;display:flex;margin-top:20px;margin-bottom:25px;">
                                     <div><img style="height:44px;width:44px;" src="../../images/indeximg/yuantouxiang.png" alt=""></div> <div style="line-height:44px;margin-left:15px;">杨子豪</div>
                                 </div>
-                                <div tyle="color:#848484;font-size:17px;">我的孩子一直在友达学习日语，日语能力得到了很大的提升。友达帮助了向我们这种不懂日语的家长也能让孩子学习二外技能。</div>
+                                <div style="color:#848484;font-size:17px;">我的孩子一直在友达学习日语，日语能力得到了很大的提升。友达帮助了向我们这种不懂日语的家长也能让孩子学习二外技能。</div>
                                 <div class="sb">
                                         <div style="color:#393939;font-size:18px;display:flex;margin-top:44px;">
                                             <div><img style="height:28px;width:23px;" src="../../images/indeximg/huoyan.png" alt=""></div> <div style="line-height:30px;margin-left:15px;">热度：2135</div>
@@ -113,7 +113,7 @@
                                 <div style="color:#393939;font-size:18px;display:flex;margin-top:20px;margin-bottom:25px;">
                                     <div><img style="height:44px;width:44px;" src="../../images/indeximg/yuantouxiang.png" alt=""></div> <div style="line-height:44px;margin-left:15px;">杨子豪</div>
                                 </div>
-                                <div tyle="color:#848484;font-size:17px;">我的孩子一直在友达学习日语，日语能力得到了很大的提升。友达帮助了向我们这种不懂日语的家长也能让孩子学习二外技能。</div>
+                                <div style="color:#848484;font-size:17px;">我的孩子一直在友达学习日语，日语能力得到了很大的提升。友达帮助了向我们这种不懂日语的家长也能让孩子学习二外技能。</div>
                                 <div class="sb">
                                         <div style="color:#393939;font-size:18px;display:flex;margin-top:44px;">
                                             <div><img style="height:28px;width:23px;" src="../../images/indeximg/huoyan.png" alt=""></div> <div style="line-height:30px;margin-left:15px;">热度：2135</div>
@@ -223,8 +223,8 @@ export default {
             line-height: 40px;
 
         }
-        div:hover{
-            color: #EF3434;
+       div:hover{
+            background: #eee;
         }
         
     }

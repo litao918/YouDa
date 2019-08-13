@@ -192,12 +192,12 @@
 
                 <!-- 小轮播 -->
                 <div class="xiaolunbo sb">
-                    <div :class="lunboid == 0 ? 'xiaolunactive1' : '' "><img src="../../images/indeximg/ppx2.png" alt=""></div>
-                    <div :class="lunboid == 1 ? 'xiaolunactive1' : '' "><img src="../../images/indeximg/ppx3.png" alt=""></div>
-                    <div :class="lunboid == 2 ? 'xiaolunactive1' : '' "><img src="../../images/indeximg/ppx4.png" alt=""></div>
-                    <div :class="lunboid == 3 ? 'xiaolunactive1' : '' "><img src="../../images/indeximg/ppx5.png" alt=""></div>
-                    <div :class="lunboid == 4 ? 'xiaolunactive1' : '' "><img src="../../images/indeximg/ppx6.png" alt=""></div>
-                    <div :class="lunboid == 5 ? 'xiaolunactive1' : '' "><img src="../../images/indeximg/ppx7.png" alt=""></div>
+                    <div :class="lunboid == 0 ? 'xiaolunactive1' : '' " @click="clickimg(0)"><img src="../../images/indeximg/ppx2.png" alt=""></div>
+                    <div :class="lunboid == 1 ? 'xiaolunactive1' : '' " @click="clickimg(1)"><img src="../../images/indeximg/ppx3.png" alt=""></div>
+                    <div :class="lunboid == 2 ? 'xiaolunactive1' : '' " @click="clickimg(2)"><img src="../../images/indeximg/ppx4.png" alt=""></div>
+                    <div :class="lunboid == 3 ? 'xiaolunactive1' : '' " @click="clickimg(3)"><img src="../../images/indeximg/ppx5.png" alt=""></div>
+                    <div :class="lunboid == 4 ? 'xiaolunactive1' : '' " @click="clickimg(4)"><img src="../../images/indeximg/ppx6.png" alt=""></div>
+                    <div :class="lunboid == 5 ? 'xiaolunactive1' : '' " @click="clickimg(5)"><img src="../../images/indeximg/ppx7.png" alt=""></div>
                 </div>
                 </div>
                 
@@ -261,7 +261,10 @@ export default {
              this.lunboid += 1 
           }
           console.log(lunboid)
-      } 
+      },
+      clickimg(id){
+         this.lunboid = id
+      }
       
     },
     mounteds: {
@@ -316,7 +319,7 @@ export default {
 
         }
         div:hover{
-            color: #EF3434;
+            background: #eee;
         }
         
     }

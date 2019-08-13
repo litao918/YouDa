@@ -101,27 +101,63 @@
         </div>
 
         <div class="sb bx" style="margin-bottom:40px;margin-top:40px;">
-          <div class="wmenu wmenu1">
-            <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
-          </div>
-          <div class="wmenu wmenu2">
-            <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
-          </div>
-          <div class="wmenu wmenu3">
-            <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
-          </div>
+         <div class="wmenu">
+            <div class="shenmid">
+              <div class="wmenu1">
+              <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
+              <div class="huitiaotiao"></div>
+              </div>
+            </div>
+         </div>
+
+          <div class="wmenu">
+            <div class="shenmid">
+              <div class="wmenu2">
+              <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
+              <div class="huitiaotiao"></div>
+              </div>
+            </div>
+         </div>
+
+
+          <div class="wmenu">
+            <div class="shenmid">
+              <div class="wmenu3">
+              <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
+              <div class="huitiaotiao"></div>
+              </div>
+            </div>
+         </div>
         </div>
 
         <div class="sb bx">
-          <div class="wmenu wmenu4">
-            <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
-          </div>
-          <div class="wmenu wmenu5">
-            <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
-          </div>
-          <div class="wmenu wmenu6">
-            <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
-          </div>
+          <div class="wmenu">
+            <div class="shenmid">
+              <div class="wmenu4">
+              <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
+              <div class="huitiaotiao"></div>
+              </div>
+            </div>
+         </div>
+
+           <div class="wmenu">
+            <div class="shenmid">
+              <div class="wmenu5">
+              <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
+              <div class="huitiaotiao"></div>
+              </div>
+            </div>
+         </div>
+
+
+          <div class="wmenu">
+            <div class="shenmid">
+              <div class="wmenu6">
+              <div class="shuoming">严格筛选中外教团队，并由您来为我们 的教师团队打分。</div>
+              <div class="huitiaotiao"></div>
+              </div>
+            </div>
+         </div>
         </div>
       </div>
 
@@ -514,6 +550,31 @@ export default {
   -webkit-transform: none;
   transform: none;
   padding-bottom: 50px;
+}
+.wmenu1{
+  margin-bottom: 40px;
+}
+.huitiaotiao{
+  height: 2px;
+  width: 35px;
+  background: #F0F0F0;
+  bottom: 30px;
+  position: absolute;
+  left: 32px;
+}
+.wmenu:hover .huitiaotiao{
+  background: red;
+}
+
+.shenmid{
+  height: 100%;
+  width: 100%;
+}
+.shenmid:hover{
+  box-shadow: #cccccc 0px 15px 32px 0px;
+  position: absolute;
+  top:-10px;
+ 
 }
 </style>
 

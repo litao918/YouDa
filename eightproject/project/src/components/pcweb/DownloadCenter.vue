@@ -85,7 +85,7 @@
                             </div>
                             <div style="display:flex;margin-top:25px;" >
                                 <div class="xiazai" style="margin-right:40px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiazai3.png" alt=""> Android</div>
-                                <div class="xiazai" style="padding-left:80px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiaz4.png" alt=""> iOS</div>
+                                <div class="xiazai" style="padding-left:80px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiaz4.png" alt=""> macos</div>
                             </div>
 
                     </div>
@@ -103,7 +103,9 @@
                 <div class="reds"></div>
             </div>
             <div class="sb bx" style="margin-top:98px;">
-                    <div class="qitaruanjian">
+
+                    <div style="width:504px;height:331px;position: relative;">
+                        <div class="qitaruanjian">
                         <div class="sb">
                             <div style="margin-right:12px;"><img style="width:99px;height:99px;" src="../../images/indeximg/qita1.png" alt=""></div>
                             <div>
@@ -114,9 +116,12 @@
                         </div>
                          <div class="sb" style="margin-top:25px;">
                                 <div class="xiazai" style="margin-right:40px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiazai3.png" alt=""> Android</div>
-                                <div class="xiazai" style="padding-left:80px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiaz4.png" alt=""> iOS</div>
+                                <div class="xiazai" style="padding-left:80px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiaz4.png" alt=""> macos</div>
                         </div>
+                     </div>
                     </div>
+
+                     <div style="width:504px;height:331px;position: relative;">
                      <div class="qitaruanjian">
                         <div class="sb">
                             <div style="margin-right:12px;"><img style="width:99px;height:99px;" src="../../images/indeximg/qita2.png" alt=""></div>
@@ -128,14 +133,18 @@
                         </div>
                          <div class="sb" style="margin-top:25px;">
                                 <div class="xiazai" style="margin-right:40px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiazai3.png" alt=""> Android</div>
-                                <div class="xiazai" style="padding-left:80px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiaz4.png" alt=""> iOS</div>
+                                <div class="xiazai" style="padding-left:80px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiaz4.png" alt=""> macos</div>
                         </div>
                     </div>
+                    </div>
+
+
             </div>
             <div class="sb bx" style="margin-top:80px;">
+                <div style="width:504px;height:331px;position: relative;">
                     <div class="qitaruanjian">
                         <div class="sb">
-                            <div style="margin-right:12px;"><img style="width:99px;height:99px;" src="../../images/indeximg/qita4.png" alt=""></div>
+                            <div style="margin-right:12px;"><img style="width:99px;height:99px;" src="../../images/indeximg/qita3.png" alt=""></div>
                             <div>
                                 <div style="color:#353535;font-size:22px;padding-bottom:10px;">QQ 正式版</div>
                                 <div style="color:#7B7B7B;font-size:18px;line-height:25px;">当有技术故障时候，也可以通过QQ跟 技术支持取得联系，进行远程协助。</div>
@@ -144,12 +153,15 @@
                         </div>
                          <div class="sb" style="margin-top:25px;">
                                 <div class="xiazai" style="margin-right:40px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiazai3.png" alt=""> Android</div>
-                                <div class="xiazai" style="padding-left:80px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiaz4.png" alt=""> iOS</div>
+                                <div class="xiazai" style="padding-left:80px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiaz4.png" alt=""> macos</div>
                         </div>
                     </div>
+                    </div>
+
+                <div style="width:504px;height:331px;position: relative;">
                      <div class="qitaruanjian">
                         <div class="sb">
-                            <div style="margin-right:12px;"><img style="width:99px;height:99px;" src="../../images/indeximg/qita3.png" alt=""></div>
+                            <div style="margin-right:12px;"><img style="width:99px;height:99px;" src="../../images/indeximg/qita4.png" alt=""></div>
                             <div>
                                 <div style="color:#353535;font-size:22px;padding-bottom:10px;">网速测试</div>
                                 <div style="color:#7B7B7B;font-size:18px;line-height:25px;">上课有卡顿情况可以通过该软件进行 网速测试，测试结果50兆以上即可正常上课。</div>
@@ -158,9 +170,11 @@
                         </div>
                          <div class="sb" style="margin-top:25px;">
                                 <div class="xiazai" style="margin-right:40px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiazai3.png" alt=""> Android</div>
-                                <div class="xiazai" style="padding-left:80px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiaz4.png" alt=""> iOS</div>
+                                <div class="xiazai" style="padding-left:80px;"> <img style="width:20px;height:20px;" src="../../images/indeximg/xiaz4.png" alt=""> macos</div>
                         </div>
                     </div>
+                </div>
+
             </div>
 
             <!--  -->
@@ -192,6 +206,8 @@
             
 
         <div style="height:200px;"></div>
+
+        <footers></footers>
 
     </div>
 </template>
@@ -256,7 +272,7 @@ export default {
 
         }
         div:hover{
-            color: #EF3434;
+            background: #eee;
         }
         
     }
@@ -295,13 +311,18 @@ export default {
 }
 
 .qitaruanjian{
-    width:504px;
-    height:331px;
+    width:100%;
+    height:100%;
     background:rgba(255,255,255,1);
     box-shadow:0px 2px 19px 10px rgba(235,235,235,0.5);
     border-radius:10px;
     box-sizing: border-box;
     padding: 60px 48px 50px 35px;
+    
+}
+.qitaruanjian:hover{
+    position: absolute;
+    top: -6px;
 }
 
    

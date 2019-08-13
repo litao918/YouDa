@@ -105,27 +105,38 @@
                         <div class='tac' style="color:#202020;font-size:24px;padding-top:20px;">针对最佳的学习方案 合理规划您的每一节课程</div>
 
                         <div class="sb" style="margin-top:66px;">
-                            <div class="jieduanneirong1">
+
+                           <div style="height: 320px;width: 260px; position: relative;">
+                                <div class="jieduanneirong1 hover1">
                                     <div class="neirong">
                                         <div style="color:#3D3D3D;font-size:24px;line-height:33px;padding-bottom:13px;">一对一</div>
                                         <div style="color:#6A6A6A;font-size:14px;line-height:23px;">拥有属于你的专属老师 </div>
                                         <div style="color:#6A6A6A;font-size:14px;line-height:23px;">全程一对一直播授课效果好</div>
                                     </div>
-                            </div>
-                             <div class="jieduanneirong2">
+                              </div>
+                           </div>
+
+                            <div style="height: 320px;width: 260px; position: relative;">
+                                 <div class="jieduanneirong2 hover1">
                                  <div class="neirong">
                                         <div style="color:#3D3D3D;font-size:24px;line-height:33px;padding-bottom:13px;">多年龄段教材</div>
                                         <div style="color:#6A6A6A;font-size:14px;line-height:23px;">针对孩子的不同年龄段 </div>
                                         <div style="color:#6A6A6A;font-size:14px;line-height:23px;">引进多种卡通日语教材</div>
                                     </div>
+                              </div>
                             </div>
-                             <div class="jieduanneirong3">
+                            
+
+                             <div style="height: 320px;width: 260px; position: relative;">
+                                 <div class="jieduanneirong3 hover1">
                                  <div class="neirong">
                                         <div style="color:#3D3D3D;font-size:24px;line-height:33px;padding-bottom:13px;">云课堂</div>
                                         <div style="color:#6A6A6A;font-size:14px;line-height:23px;">中外教老师以主题形式介绍 </div>
                                         <div style="color:#6A6A6A;font-size:14px;line-height:23px;">日本旅游、文化等趣味课程</div>
                                     </div>
-                            </div>
+                                </div>
+                             </div>
+
                         </div>
                 </div>
             </div>
@@ -260,7 +271,7 @@ export default {
 
         }
         div:hover{
-            color: #EF3434;
+            background: #eee;
         }
         
     }
@@ -317,25 +328,30 @@ export default {
 
     }
     .jieduanneirong1{
-        height: 320px;
-        width: 260px;
+        height: 100%;
+        width: 100%;
         background: url('../../images/indeximg/haizijieduan1.png') no-repeat;
         background-size: 100% 100%;
-        position: relative;
+        position: absolute;
     }
     .jieduanneirong2{
-        height: 320px;
-        width: 260px;
+        height: 100%;
+        width: 100%;
         background: url('../../images/indeximg/haizijieduan2.png') no-repeat;
         background-size: 100% 100%;
-        position: relative;
+        position: absolute;
+       
     }
     .jieduanneirong3{
-        height: 320px;
-        width: 260px;
+       height: 100%;
+        width: 100%;
         background: url('../../images/indeximg/haizijieduan3.png') no-repeat;
         background-size: 100% 100%;
-        position: relative;
+        position: absolute;
+        
+    }
+    .hover1:hover{
+        top: -6px;
     }
     
     .neirong{

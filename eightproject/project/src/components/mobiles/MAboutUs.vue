@@ -7,9 +7,9 @@
         <div><router-link  to="/MJapaneseDistinction">日语考级</router-link></div>
         <div><router-link to="/Mexam">高考日语</router-link></div>
         <div><router-link to="/MChildrenJapanese">儿童日语</router-link></div>
-        <div><router-link to="">企业培训</router-link></div>
-        <div><router-link to="">全球师资</router-link></div>
-        <div><router-link to="">教学理念</router-link></div>
+        <div><router-link to="/Enterprise">企业培训</router-link></div>
+        <div><router-link to="/MTeachers">全球师资</router-link></div>
+        <div><router-link to="/MTeachingConcept">教学理念</router-link></div>
         <div><router-link to="/MJapanAbroad">日本留学</router-link></div>
         <div><router-link to="/MPublicClass">公开课</router-link></div>
         <div><router-link to="/MHowClass">如何上课</router-link></div>
@@ -165,7 +165,53 @@
             <!-- 品牌动向 -->
              <div class="gguanyuwomen">
              <div class="titlemy">品牌动向（ブランド動向）</div>
-            
+
+               <div class="lunbo">
+
+              
+            <swiper
+              :options="swiperOption"
+              class="swiper-wrap"
+            >
+
+              <swiper-slide >
+                  <div class="lunbocont2">
+                        <div class="contbox">
+                                <img src="../../images/indeximg/dongxiaoimg.png" alt="">
+                        </div>
+                  </div>
+              </swiper-slide>
+
+                 <swiper-slide >
+                  <div class="lunbocont2">
+                        <div class="contbox">
+                                <img src="../../images/indeximg/dongxiaoimg.png" alt="">
+                        </div>
+                  </div>
+              </swiper-slide>
+
+                 <swiper-slide >
+                  <div class="lunbocont2">
+                        <div class="contbox">
+                                <img src="../../images/indeximg/dongxiaoimg.png" alt="">
+                        </div>
+                  </div>
+              </swiper-slide>
+
+              
+
+              
+
+              <!-- 常见的小圆点 -->
+              <div
+                class="swiper-pagination"
+                slot="pagination"
+              ></div>
+
+            </swiper>
+
+
+          </div>
              
             </div>
 
@@ -182,14 +228,50 @@
 </template>
 
 <script>
-import footers from './footer/footer.vue';
+import footers from "./footer/footer.vue";
+import { swiper, swiperSlide } from "vue-awesome-swiper";
+require("swiper/dist/css/swiper.css");
 export default {
   components: {footers },
   data() {
     const that = this;
     return {
-      menuclass:false,
-        
+      menuclass: false,
+      imgIndex: 1,
+      swiperOption: {
+        //是一个组件自有属性，如果notNextTick设置为true，组件则不会通过NextTick来实例化swiper，也就意味着你可以在第一时间获取到swiper对象，假如你需要刚加载遍使用获取swiper对象来做什么事，那么这个属性一定要是true
+        notNextTick: true,
+        //循环
+        loop: true,
+        //设定初始化时slide的索引
+        initialSlide: 0,
+        //自动播放
+        autoplay: {
+          delay: 1500,
+          stopOnLastSlide: false,
+          /* 触摸滑动后是否继续轮播 */
+          disableOnInteraction: false
+        },
+        //滑动速度
+        speed: 800,
+        //滑动方向
+        direction: "horizontal",
+        //小手掌抓取滑动
+        grabCursor: true,
+        on: {
+          //滑动之后回调函数
+          slideChangeTransitionStart: function() {
+            /* realIndex为滚动到当前的slide索引值 */
+            that.imgIndex= this.realIndex - 1;
+          },
+        },
+        //分页器设置
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          type: "bullets"
+        }
+      }
     };
   },
 
@@ -388,6 +470,57 @@ export default {
 .fenye{
     
 }
+.contbox{
+    width: 6.74rem;
+    height: 4.34rem;
+    padding: 0 .42rem;
+    margin-left: .1rem;
+    padding-top: .74rem;
+    box-sizing: border-box;
+    text-align: center;
+    
+    
+    img{
+       height: 100%;
+       width: 100%;
+        display: block;
+        margin: 0 auto;
+
+    }
+}
+
+.laoshi{
+    color: #2B2B2B;
+    font-size: .34rem;
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+ 
+}
+.daxue{
+    color: #999999;
+    font-size: .28rem;
+  
+    
+}
+.jingyan{
+    color: #343434;
+    font-size: .24rem;
+}
+.wenben{
+    color: #949494;
+    font-size: .28rem;
+    line-height: .42rem;
+    margin-top: .2rem;
+}
+
+.lunbocont2{
+padding-bottom: 1rem;
+  
+}
+.lunbo{
+  padding-bottom: .8rem;
+}
+
 </style>
 
 

@@ -192,7 +192,7 @@ export default {
 
         }
         div:hover{
-            color: #EF3434;
+            background: #eee;
         }
         
     }

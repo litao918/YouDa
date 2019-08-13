@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- 报名 -->
-    <div style="height:66px;box-shadow:#000 0px 8px 13px;">
+    <div class="baoming" style="height:66px;box-shadow:#000 0px 8px 13px;">
       <div class="sb" style="width:1080px;margin:0 auto; position: relative;line-height:66px;">
         <div style="position: absolute;left:0;bottom:-28px;">
           <img style="height:150px;width:138px;" src="../images/indeximg/maomi.png" alt />
@@ -9,14 +9,14 @@
         <div style="margin-left:174px;font-size:28px;color:#FF4444;">免费领取价值300元试听课</div>
         <div
           class="mlrauto fangfajing"
-          style="width:210px;height:46px;border-radius:46px;;border: 1px solid #E0E0E0; position: relative;"
+          style="width:350px;height:46px;border-radius:46px;;border: 1px solid #E0E0E0; position: relative;"
         >
           <div style="width:20px;height:20px;position: absolute;left:16px;top:-5px;">
             <img style="height:100%;width:100%;" src="../images/indeximg/fangdajing.png" alt />
           </div>
           <input
             class="input"
-            style="height:44px;width:149px;position: absolute;top:0;right:20px;"
+            style="height:44px;width:270px;position: absolute;top:0;right:20px;"
             type="text"
           />
         </div>
@@ -105,28 +105,30 @@
     </div>
 
     <div style="z-index:999;display:flex;position: fixed;bottom:100px;right:30px;">
-      <div style="color:#fff;font-size:16px;line-height:56px;">
-        <div
-          style="margin-bottom:20px;background:#FFC632;width:175px;height:56px; border-radius:8px;text-align: center;"
-        >在线客服咨询</div>
-        <div
-          style="background:#EF3434;width:175px;height:56px; border-radius:8px;text-align: center;"
-        >400-680-0101</div>
+      <div style="color:#fff;font-size:16px;line-height:56px;position: relative;">
+        <div  class="zixun"
+          :style="clickid == 1 ? 'display:block;' : 'display:none;' "
+        >在线客服咨询
+        </div>
+        <div  class="phone"
+          :style="clickid == 2 ? 'display:block;' : 'display:none;' "
+        >400-680-0101
+        </div>
       </div>
       <div>
         <div
           style="margin-left:30px;background:#fff;width:60px;height:130px; border-radius:14px;text-align: center;box-shadow:1px 1px 5px #D9D9D9,1px -1px 5px #D9D9D9,-1px 1px 5px #D9D9D9,-1px -1px 5px #D9D9D9;"
         >
-          <div style>
+          <div class="dinebtn" @click="dianjiyi(1)" :style="clickid==1 ? 'background:#eee;' : '' ">
             <img
               style="height:30px;width:30px;margin-top:17.5px;margin-bottom:12.5px;"
               src="../images/indeximg/l1.png"
               alt
             />
           </div>
-          <div style>
+          <div class="dinebtn2" @click="dianjiyi(2)" :style="clickid==2 ? 'background:#eee;' : '' ">
             <img
-              style="height:30px;width:30px;margin-top:12.5px;margin-bottom:17.5px;"
+              style="height:30px;width:30px;margin-top:14px;margin-bottom:17.5px;"
               src="../images/indeximg/l2.png"
               alt
             />
@@ -140,7 +142,8 @@
 export default {
   data() {
     return {
-      btnFlag: false
+      btnFlag: false,
+      clickid:''
     };
   },
   mounted() {
@@ -178,7 +181,12 @@ export default {
       } else {
         that.btnFlag = false;
       }
-    }
+    },
+
+    dianjiyi(id){
+      this.clickid = id
+      console.log(this.clickid)
+    } 
   }
 };
 </script>
@@ -188,5 +196,51 @@ export default {
 .input {
   outline: none;
   border: none;
+}
+.dinebtn{
+  border-radius: 14px  14px 0 0;
+}
+.dinebtn2{
+  border-radius: 0   0  14px  14px ;
+}
+.dinebtn:hover{
+  background: #eee;
+  cursor: pointer;
+}
+.dinebtn2:hover{
+  background: #eee;
+  cursor: pointer;
+}
+.active1{
+  background: #eee;
+
+}
+.active2{
+  background: #fff;
+
+}
+.zixun{
+  margin-bottom:20px;
+  background:#FFC632;
+  width:175px;
+  height:56px;
+   border-radius:8px;
+   text-align: center;
+   position: absolute;
+   left: -170px;
+   top: 0px;
+}
+.phone{
+  background:#EF3434;width:175px;height:56px; border-radius:8px;text-align: center;
+   position: absolute;
+   left: -170px;
+   top: 75px;
+}
+.baoming{
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 9999;
 }
 </style>

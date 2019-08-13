@@ -82,56 +82,61 @@
                 <div>设定当前起始水平和期望水平 获得课程规划建议</div>
                 </div>
 
-                <div class="ddd0"  style="height:35px;background:#F0F0F0;width:100%;display:flex;">
-                    <div class="dd" style="background:#FF6258;"></div>
-                    <div class="dd" style="background:#D8D8D8;"></div>
-                    <div class="dd" style="background:#27CA41;"></div>
-                </div>
-                <div style="position: relative;padding:0 50px;padding-bottom:42px;box-shadow:0px 2px 11px 0px rgba(193,193,193,0.5);">
-                    <div class="sb zhuzi">
-                        <div style="background:#FFD465;height:50px;"><div>LV1</div></div>
-                        <div style="background:#FFD465;height:80px;"><div>LV2</div></div>
-                        <div style="background:#FFD465;height:110px;"><div>LV3</div></div>
-                        <div style="background:#FFB865;height:140px;"><div>LV4</div></div>
-                        <div style="background:#FFB865;height:170px;"><div>LV5</div></div>
-                        <div style="background:#FFB865;height:200px;"><div>LV6</div></div>
-                        <div style="background:#52A5FF;height:230px;"><div>LV7</div></div>
-                        <div style="background:#52A5FF;height:260px;"><div>LV8</div></div>
-                        <div style="background:#52A5FF;height:290px;"><div>LV9</div></div>
-                        <div style="background:#FF6D6D;height:320px;"><div>LV10</div></div>
-                        <div style="background:#FF6D6D;height:350px;"><div>LV11</div></div>
-                        <div style="background:#FF6D6D;height:380px;"><div>LV12</div></div>
+               <div class="hoverxiaoguo">
+                    <div class="hoverxiaoguo2">
+                        <div class="ddd0"  style="height:35px;background:#F0F0F0;width:100%;display:flex;">
+                        <div class="dd" style="background:#FF6258;"></div>
+                        <div class="dd" style="background:#D8D8D8;"></div>
+                        <div class="dd" style="background:#27CA41;"></div>
+                    </div>
+                    <div style="position: relative;padding:0 50px;padding-bottom:42px;box-shadow:0px 2px 11px 0px rgba(193,193,193,0.5);">
+                        <div class="sb zhuzi">
+                            <div style="background:#FFD465;height:50px;"><div>LV1</div></div>
+                            <div style="background:#FFD465;height:80px;"><div>LV2</div></div>
+                            <div style="background:#FFD465;height:110px;"><div>LV3</div></div>
+                            <div style="background:#FFB865;height:140px;"><div>LV4</div></div>
+                            <div style="background:#FFB865;height:170px;"><div>LV5</div></div>
+                            <div style="background:#FFB865;height:200px;"><div>LV6</div></div>
+                            <div style="background:#52A5FF;height:230px;"><div>LV7</div></div>
+                            <div style="background:#52A5FF;height:260px;"><div>LV8</div></div>
+                            <div style="background:#52A5FF;height:290px;"><div>LV9</div></div>
+                            <div style="background:#FF6D6D;height:320px;"><div>LV10</div></div>
+                            <div style="background:#FF6D6D;height:350px;"><div>LV11</div></div>
+                            <div style="background:#FF6D6D;height:380px;"><div>LV12</div></div>
+
+                        </div>
+                        <div class="sb" style="margin-top:5px;">
+                                <div style="height:240px;width:240px;background:#FFD465;color:#fff;border-radius:10px;line-height:20px;font-size:14px;padding-top:20px;padding-left:16px;padding-right:16px;box-sizing: border-box;">
+                                    <div>初级（LV1-LV3)</div>
+                                    <div style="margin:30px 0;">了解各类购物、咨询、当地地理环境等相关领域的句子及常用词语，在熟悉的环境里表达简单的意见和要求（如自我介绍等）。</div>
+                                    <div>相当于：日语等级考试N4。</div>
+                                </div>
+                                <div style="height:240px;width:240px;background:#FFB865;color:#fff;border-radius:10px;line-height:20px;font-size:14px;padding-top:20px;padding-left:16px;padding-right:16px;box-sizing: border-box;">
+                                    <div>初级（LV1-LV3)</div>
+                                    <div style="margin:30px 0;">了解各类购物、咨询、当地地理环境等相关领域的句子及常用词语，在熟悉的环境里表达简单的意见和要求（如自我介绍等）。</div>
+                                    <div>相当于：日语等级考试N4。</div>
+                                </div>
+                                <div style="height:240px;width:240px;background:#52A5FF;color:#fff;border-radius:10px;line-height:20px;font-size:14px;padding-top:20px;padding-left:16px;padding-right:16px;box-sizing: border-box;">
+                                    <div>初级（LV1-LV3)</div>
+                                    <div style="margin:30px 0;">了解各类购物、咨询、当地地理环境等相关领域的句子及常用词语，在熟悉的环境里表达简单的意见和要求（如自我介绍等）。</div>
+                                    <div>相当于：日语等级考试N4。</div>
+                                </div>
+                                <div style="height:240px;width:240px;background:#FF6D6D;color:#fff;border-radius:10px;line-height:20px;font-size:14px;padding-top:20px;padding-left:16px;padding-right:16px;box-sizing: border-box;">
+                                    <div>初级（LV1-LV3)</div>
+                                    <div style="margin:30px 0;">了解各类购物、咨询、当地地理环境等相关领域的句子及常用词语，在熟悉的环境里表达简单的意见和要求（如自我介绍等）。</div>
+                                    <div>相当于：日语等级考试N4。</div>
+                                </div>
+                        </div>
+
+                        <div class="shuoming">
+                            <div style="font-size:24px;color:#EF3333;line-height:33px;">• 日语学习级别分析</div>
+                            <div style="font-size:20px;color:#EF3333;line-height:28px;margin:34px 0;">我们将日语分成十二个级别，每完成一个级别我们将进行一定的测试，测试完成符合目标方可进入下一个课程的学习。</div>
+                            <div class="yybtn">预约试听课</div>
+                        </div>
+                    </div>
 
                     </div>
-                    <div class="sb" style="margin-top:5px;">
-                            <div style="height:240px;width:240px;background:#FFD465;color:#fff;border-radius:10px;line-height:20px;font-size:14px;padding-top:20px;padding-left:16px;padding-right:16px;box-sizing: border-box;">
-                                <div>初级（LV1-LV3)</div>
-                                <div style="margin:30px 0;">了解各类购物、咨询、当地地理环境等相关领域的句子及常用词语，在熟悉的环境里表达简单的意见和要求（如自我介绍等）。</div>
-                                <div>相当于：日语等级考试N4。</div>
-                            </div>
-                            <div style="height:240px;width:240px;background:#FFB865;color:#fff;border-radius:10px;line-height:20px;font-size:14px;padding-top:20px;padding-left:16px;padding-right:16px;box-sizing: border-box;">
-                                <div>初级（LV1-LV3)</div>
-                                <div style="margin:30px 0;">了解各类购物、咨询、当地地理环境等相关领域的句子及常用词语，在熟悉的环境里表达简单的意见和要求（如自我介绍等）。</div>
-                                <div>相当于：日语等级考试N4。</div>
-                            </div>
-                            <div style="height:240px;width:240px;background:#52A5FF;color:#fff;border-radius:10px;line-height:20px;font-size:14px;padding-top:20px;padding-left:16px;padding-right:16px;box-sizing: border-box;">
-                                <div>初级（LV1-LV3)</div>
-                                <div style="margin:30px 0;">了解各类购物、咨询、当地地理环境等相关领域的句子及常用词语，在熟悉的环境里表达简单的意见和要求（如自我介绍等）。</div>
-                                <div>相当于：日语等级考试N4。</div>
-                            </div>
-                            <div style="height:240px;width:240px;background:#FF6D6D;color:#fff;border-radius:10px;line-height:20px;font-size:14px;padding-top:20px;padding-left:16px;padding-right:16px;box-sizing: border-box;">
-                                <div>初级（LV1-LV3)</div>
-                                <div style="margin:30px 0;">了解各类购物、咨询、当地地理环境等相关领域的句子及常用词语，在熟悉的环境里表达简单的意见和要求（如自我介绍等）。</div>
-                                <div>相当于：日语等级考试N4。</div>
-                            </div>
-                    </div>
-
-                    <div class="shuoming">
-                        <div style="font-size:24px;color:#EF3333;line-height:33px;">• 日语学习级别分析</div>
-                        <div style="font-size:20px;color:#EF3333;line-height:28px;margin:34px 0;">我们将日语分成十二个级别，每完成一个级别我们将进行一定的测试，测试完成符合目标方可进入下一个课程的学习。</div>
-                        <div class="yybtn">预约试听课</div>
-                    </div>
-                </div>
+               </div>
 
             </div>
 
@@ -143,24 +148,36 @@
                 </div>
 
                 <div class="sb bx">
-                    <div style="height:320px;width:260px;background:#fff;border-radius:21px;text-align: center;">
-                        <div style="margin-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/like1.png" alt=""></div>
-                        <div style="color:#3D3D3D;font-size:24px;line-height:33px;margin-top:30px;padding-bottom:13px;">主修课</div>
-                        <div style="color:#6A6A6A;font-size:14px;line-height:23px;">拥有属于你的专属老师 </div>
-                        <div style="color:#6A6A6A;font-size:14px;line-height:23px;">全程一对一直播授课效果好</div>
-                    </div>
-                    <div style="height:320px;width:260px;background:#fff;border-radius:21px;text-align: center;">
-                        <div style="margin-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/like2.png" alt=""></div>
+                  
+                       <div style="height:320px;width:260px;position: relative;">
+                             <div class="hovermin" style="height:320px;width:260px;background:#fff;border-radius:21px;text-align: center;">
+                                <div style="padding-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/like1.png" alt=""></div>
+                                <div style="color:#3D3D3D;font-size:24px;line-height:33px;margin-top:30px;padding-bottom:13px;">主修课</div>
+                                <div style="color:#6A6A6A;font-size:14px;line-height:23px;">拥有属于你的专属老师 </div>
+                                <div style="color:#6A6A6A;font-size:14px;line-height:23px;">全程一对一直播授课效果好</div>
+                            </div>
+                       </div>
+
+
+                <div style="height:320px;width:260px;position: relative;">
+                    <div class="hovermin" style="height:320px;width:260px;background:#fff;border-radius:21px;text-align: center;">
+                        <div style="padding-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/like2.png" alt=""></div>
                         <div style="color:#3D3D3D;font-size:24px;line-height:33px;margin-top:30px;padding-bottom:13px;">专项课</div>
                         <div style="color:#6A6A6A;font-size:14px;line-height:23px;">1~4人小班课 </div>
                         <div style="color:#6A6A6A;font-size:14px;line-height:23px;">同伴沟通学习更有趣 </div>
                     </div>
-                    <div style="height:320px;width:260px;background:#fff;border-radius:21px;text-align: center;">
-                        <div style="margin-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/like3.png" alt=""></div>
+                    </div>
+
+
+                <div style="height:320px;width:260px;position: relative;">
+                    <div class="hovermin" style="height:320px;width:260px;background:#fff;border-radius:21px;text-align: center;">
+                        <div style="padding-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/like3.png" alt=""></div>
                         <div style="color:#3D3D3D;font-size:24px;line-height:33px;margin-top:30px;padding-bottom:13px;">会话课</div>
                         <div style="color:#6A6A6A;font-size:14px;line-height:23px;">1~4人小班课 </div>
                         <div style="color:#6A6A6A;font-size:14px;line-height:23px;">外籍教师全日文会话练习</div>
                     </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -207,9 +224,10 @@
                         <div class="lejiaogengduo2">了解更多内容</div> 
                     </div>
                     <div class="sb">
-                        <div style="width:369px;height:284px"><img style="height:100%;width:100%;" src="../../images/indeximg/kk1.png" alt=""></div>
-                         <div style="width:369px;height:284px"><img style="height:100%;width:100%;" src="../../images/indeximg/kk2.png" alt=""></div>
-                          <div style="width:369px;height:284px"><img style="height:100%;width:100%;" src="../../images/indeximg/kk3.png" alt=""></div>
+                        <div style="width:369px;height:284px;position: relative;"><div class="hover04" style="width:100%;height:100%"><img style="height:100%;width:100%;" src="../../images/indeximg/kk1.png" alt=""></div></div>
+                        <div style="width:369px;height:284px;position: relative;"><div class="hover04" style="width:100%;height:100%"><img style="height:100%;width:100%;" src="../../images/indeximg/kk2.png" alt=""></div></div>
+                        <div style="width:369px;height:284px;position: relative;"><div class="hover04" style="width:100%;height:100%"><img style="height:100%;width:100%;" src="../../images/indeximg/kk3.png" alt=""></div></div>
+                        
                 </div>
                 </div>
             </div>
@@ -281,8 +299,8 @@ export default {
             line-height: 40px;
 
         }
-        div:hover{
-            color: #EF3434;
+         div:hover{
+            background: #eee;
         }
         
     }
@@ -383,5 +401,46 @@ export default {
     text-align: center;
     margin-top: 46px;
 }
+.hoverxiaoguo{
+    width: 1080px;
+    height: 734px;
+    margin: 0 auto;
+    position: relative;
+}
+.hoverxiaoguo2{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.hoverxiaoguo2:hover{
+    position: absolute;
+    top: -10px;
+    box-shadow: #ccc -6px 14px 30px 0px;
+    
+  
+}
+
+.hovermin:hover{
+    position: absolute;
+    top: -10px;
+    box-shadow: #ccc 0px 10px 20px 0px;
+    
+}
+.hover04:hover{
+        position: absolute;
+        top: -6px;
+}
+.lejiaogengduo:hover{
+    background: #eee;
+    cursor: pointer;
+    
+}
+.lejiaogengduo2:hover{
+    background: #eee;
+    cursor: pointer;
+    
+}
+
 </style>
 

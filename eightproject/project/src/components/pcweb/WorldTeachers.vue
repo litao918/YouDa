@@ -89,24 +89,31 @@
                 </div>
 
                 <div class="sb bx">
-                    <div style="height:320px;width:260px;background:#fff;border-radius:21px;text-align: center;box-shadow:0px 4px 17px 2px rgba(234,233,233,0.5);">
-                        <div style="margin-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/fz1.png" alt=""></div>
-                        <div style="color:#3D3D3D;font-size:24px;line-height:33px;margin-top:15px;padding-bottom:13px;">绩效考核</div>
-                        <div style="color:#6A6A6A;font-size:16px;line-height:27px;width:212px;height:84px;text-align: left;padding-left:34px;">通过学习管理系统，随时了解员工学习动态、提供各项KPI数据分析和完整学习报告  </div>
-                        
+
+                   <div style="height:320px;width:260px;position: relative;">
+                            <div class="hover1" style="height:100%;width:100%;background:#fff;border-radius:21px;text-align: center;">
+                                <div style="padding-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/fz1.png" alt=""></div>
+                                <div style="color:#3D3D3D;font-size:24px;line-height:33px;margin-top:15px;padding-bottom:13px;">绩效考核</div>
+                                <div style="color:#6A6A6A;font-size:16px;line-height:27px;width:212px;height:84px;text-align: left;padding-left:34px;">通过学习管理系统，随时了解员工学习动态、提供各项KPI数据分析和完整学习报告  </div>
+                            </div>
                     </div>
-                    <div style="height:320px;width:260px;background:#fff;border-radius:21px;text-align: center;box-shadow:0px 4px 17px 2px rgba(234,233,233,0.5);">
-                        <div style="margin-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/fz2.png" alt=""></div>
-                        <div style="color:#3D3D3D;font-size:24px;line-height:33px;margin-top:15px;padding-bottom:13px;">加强技能</div>
-                        <div style="color:#6A6A6A;font-size:16px;line-height:27px;width:212px;height:84px;text-align: left;padding-left:34px;">日语作为语言技能，提高员工日语能力的同时让其更适合企业发展的需求。  </div>
-                        
+
+                    <div style="height:320px;width:260px;position: relative;">
+                            <div  class="hover1" style="height:100%;width:100%;background:#fff;border-radius:21px;text-align: center;">
+                                <div style="padding-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/fz2.png" alt=""></div>
+                                <div style="color:#3D3D3D;font-size:24px;line-height:33px;margin-top:15px;padding-bottom:13px;">加强技能</div>
+                                <div style="color:#6A6A6A;font-size:16px;line-height:27px;width:212px;height:84px;text-align: left;padding-left:34px;">日语作为语言技能，提高员工日语能力的同时让其更适合企业发展的需求。  </div>
+                            </div>
                     </div>
-                    <div style="height:320px;width:260px;background:#fff;border-radius:21px;text-align: center;box-shadow:0px 4px 17px 2px rgba(234,233,233,0.5);">
-                        <div style="margin-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/fz3.png" alt=""></div>
-                        <div style="color:#3D3D3D;font-size:24px;line-height:33px;margin-top:15px;padding-bottom:13px;">降低成本</div>
-                        <div style="color:#6A6A6A;font-size:16px;line-height:27px;width:212px;height:84px;text-align: left;padding-left:34px;">一对一在线学习性价比高，时间灵活，大幅度降低企业经济和时间成本。  </div>
-                        
-                    </div>
+
+                    <div style="height:320px;width:260px;position: relative;">
+                        <div  class="hover1" style="height:100%;width:100%;background:#fff;border-radius:21px;text-align: center;">
+                            <div style="padding-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/fz3.png" alt=""></div>
+                            <div style="color:#3D3D3D;font-size:24px;line-height:33px;margin-top:15px;padding-bottom:13px;">降低成本</div>
+                            <div style="color:#6A6A6A;font-size:16px;line-height:27px;width:212px;height:84px;text-align: left;padding-left:34px;">一对一在线学习性价比高，时间灵活，大幅度降低企业经济和时间成本。  </div>
+                        </div>
+                        </div>
+
                 </div>
 
             </div>
@@ -254,7 +261,7 @@ export default {
 
         }
         div:hover{
-            color: #EF3434;
+            background: #eee;
         }
         
     }
@@ -386,6 +393,15 @@ export default {
         background: url('../../images/indeximg/pp8.png') no-repeat center center;
         background-size: 100% 100%;
     }
+}
+.hover1{
+    box-shadow:0px 4px 17px 2px rgba(202, 202, 202, 0.5);
+}
+.hover1:hover{
+    position: absolute;
+    top: -6px; 
+    box-shadow: #ccc 0px 10px 20px 0px;   
+    
 }
 
    

@@ -173,10 +173,9 @@ export default {
             line-height: 40px;
 
         }
-        div:hover{
-            color: #EF3434;
+         div:hover{
+            background: #eee;
         }
-        
     }
     .xianshi:hover{
         .dingwei{

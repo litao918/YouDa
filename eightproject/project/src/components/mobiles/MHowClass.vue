@@ -7,9 +7,9 @@
         <div><router-link to="/MJapaneseDistinction">日语考级</router-link></div>
         <div><router-link to="/Mexam">高考日语</router-link></div>
         <div><router-link to="/MChildrenJapanese">儿童日语</router-link></div>
-        <div><router-link to="">企业培训</router-link></div>
-        <div><router-link to="">全球师资</router-link></div>
-        <div><router-link to="">教学理念</router-link></div>
+        <div><router-link to="/Enterprise">企业培训</router-link></div>
+        <div><router-link to="/MTeachers">全球师资</router-link></div>
+        <div><router-link to="/MTeachingConcept">教学理念</router-link></div>
         <div><router-link to="/MJapanAbroad">日本留学</router-link></div>
         <div><router-link to="/MPublicClass">公开课</router-link></div>
         <div style="background:#F3F3F3;color:#EF3434"><router-link style="color:#EF3434;" to="/MHowClass">如何上课</router-link></div>

@@ -109,7 +109,7 @@
            <div style="background:#FAFAFA;padding-bottom:100px;">
             <div class="bx"  style="text-align: center;">
                 <div style="font-size:42px;color:#2B2B2B;line-height:54px;padding-top:110px;">高效率留学申请</div>
-                <div style="font-size:24px;color:#2B2B2B;line-height:54px;margin-bottom:20px;">让你从容无忧办理入学</div>
+                <div style="font-size:24px;color:#959595;line-height:54px;margin-bottom:20px;">让你从容无忧办理入学</div>
                 <div>
                     <div class="sb">
                         <div style="width:315px">
@@ -277,8 +277,8 @@ export default {
             color: #573E41;
             text-decoration:none;
         }
-        a:hover{
-            color: #EF3434;
+       div:hover{
+            background: #eee;
         }
        
     }

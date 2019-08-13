@@ -57,7 +57,15 @@ import MPrivacyProtection from '@/components/mobiles/MPrivacyProtection'
 //联系我们 
 import MContactUs from '@/components/mobiles/MContactUs' 
 //关于我们 
-import MAboutUs from '@/components/mobiles/MAboutUs'
+import MAboutUs from '@/components/mobiles/MAboutUs' 
+//教学理念
+import MTeachingConcept from '@/components/mobiles/MTeachingConcept' 
+//企业培训
+import Enterprise from '@/components/mobiles/Enterprise'  
+//全球师资
+import MTeachers from '@/components/mobiles/MTeachers' 
+
+
 
 Vue.use(Router)
 
@@ -196,8 +204,24 @@ export default new Router({
     {
       path: '/MAboutUs',
       name: 'MAboutUs',
-      component: MAboutUs   
+      component: MAboutUs    
     },
+    {
+      path: '/MTeachingConcept',
+      name: 'MTeachingConcept',
+      component: MTeachingConcept     
+    },
+    {
+      path: '/Enterprise',
+      name: 'Enterprise',
+      component: Enterprise     
+    },
+    {
+      path: '/MTeachers',
+      name: 'MTeachers',
+      component: MTeachers     
+    },
+    
     
     
 

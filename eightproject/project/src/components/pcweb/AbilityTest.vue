@@ -88,38 +88,59 @@
                 <div class='tac' style="color:#959595;font-size:24px;padding-top:20px;">轻松突破能力考试</div>
                 
                 <div class="sb" style="margin-top:57px;">
-                        <div class="fangan">
+                    
+                        <div style=" width: 330px;height:276px;position: relative;">
+                            <div class="fangan">
                             <div><img style="height:50px;width:50px;" src="../../images/indeximg/fangan1.png" alt=""></div>
                             <div style="color:#393939;font-size:30px;padding:15px 0;">定制专属教材</div>
                             <div style="color:#393939;font-size:20px;">根据能力考知识点以及题型定制针对性教材。</div>
+                           </div>
                         </div>
-                        <div class="fangan">
+
+                        <div style=" width: 330px;height:276px;position: relative;">
+                            <div class="fangan">
                             <div><img style="height:50px;width:50px;" src="../../images/indeximg/fangan2.png" alt=""></div>
                             <div style="color:#393939;font-size:30px;padding:15px 0;">一对一真人直播</div>
                             <div style="color:#393939;font-size:20px;">一对一真人陪伴学习，互动课堂学习更高效。</div>
+                           </div>
                         </div>
-                        <div class="fangan">
+
+                        <div style=" width: 330px;height:276px;position: relative;">
+                            <div class="fangan">
                             <div><img style="height:50px;width:50px;" src="../../images/indeximg/fangan3.png" alt=""></div>
                             <div style="color:#393939;font-size:30px;padding:15px 0;">资深中外教师资</div>
                             <div style="color:#393939;font-size:20px;">中外教拥有多年能力考教学经验，为您保驾护航。</div>
+                          </div>
                         </div>
+
                 </div>
+
                 <div class="sb" style="margin-top:57px;">
-                        <div class="fangan">
+
+                       <div style=" width: 330px;height:276px;position: relative;">
+                            <div class="fangan">
                             <div><img style="height:50px;width:50px;" src="../../images/indeximg/fangan4.png" alt=""></div>
                             <div style="color:#393939;font-size:30px;padding:15px 0;">考前冲刺强化</div>
                             <div style="color:#393939;font-size:20px;">真题解析，查缺补漏，强化薄弱环节，确保高分通过。</div>
-                        </div>
-                        <div class="fangan">
+                          </div>
+                       </div>
+
+                       <div style=" width: 330px;height:276px;position: relative;">
+                            <div class="fangan">
                             <div><img style="height:50px;width:50px;" src="../../images/indeximg/fangan5.png" alt=""></div>
                             <div style="color:#393939;font-size:30px;padding:15px 0;">课程视频回看</div>
                             <div style="color:#393939;font-size:20px;">多终端随时回看课程录像，复习巩固所学内容，保障每一节课的学习效果。</div>
-                        </div>
-                        <div class="fangan">
+                           </div>
+                       </div>
+
+                        <div style=" width: 330px;height:276px;position: relative;">
+                            <div class="fangan">
                             <div><img style="height:50px;width:50px;" src="../../images/indeximg/fangan6.png" alt=""></div>
                             <div style="color:#393939;font-size:30px;padding:15px 0;">课后专项辅导</div>
                             <div style="color:#393939;font-size:20px;">7x12辅导老师全程在线，随时解答您的日语问题</div>
+                           </div>
                         </div>
+
                 </div>
 
                 <div class="tiyanke">领取体验课</div>
@@ -387,7 +408,8 @@ export default {
 
         }
         div:hover{
-            color: #EF3434;
+            background: #eee;
+            
         }
         
     }
@@ -427,14 +449,19 @@ export default {
     }
 
     .fangan{
+        height: 100%;
+        width: 100%;
+        position: absolute;
         padding: 40px 21px 35px 30px;
         box-sizing: border-box;
-        width: 330px;
+
+       
     }
     .fangan:hover{
         background:rgba(255,255,255,1);
         box-shadow:0px 4px 17px 5px rgba(200,200,200,0.5);
         border-radius:16px;
+        top: -6px;
     }
 
     .tiyanke{

@@ -89,27 +89,32 @@
                 </div>
 
                 <div class="sb bx">
-                    <div style="height:260px;width:300px;background:#fff;border-radius:21px;text-align: center;box-shadow:0px 4px 17px 2px rgba(234,233,233,0.5);">
+
+                    <div style="height:260px;width:300px;position: relative;">
+                        <div class="hovermix" style="height:100%;width:100%;background:#fff;border-radius:21px;text-align: center;">
                         <div style="height:9px;background:#1989FA;border-radius: 16px  16px  0px  0px ;"></div>
                         <div style="margin-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/qq1.png" alt=""></div>
                         <div style="color:#000;font-size:20px;line-height:28px;margin-top:25px;padding-bottom:13px;">6个流程筛选考评</div>
-                        
-                        
+                       </div>
                     </div>
-                    <div style="height:260px;width:300px;background:#fff;border-radius:21px;text-align: center;box-shadow:0px 4px 17px 2px rgba(234,233,233,0.5);">
-                        <div style="height:9px;background:#FFC632;border-radius: 16px  16px  0px  0px ;"></div>
-                        <div style="margin-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/qq2.png" alt=""></div>
-                        <div style="color:#000;font-size:20px;line-height:28px;margin-top:25px;padding-bottom:13px;">100小时专业培训</div>
-                       
-                        
+                    
+
+                    <div style="height:260px;width:300px;position: relative;">
+                        <div class="hovermix" style="height:100%;width:100%;background:#fff;border-radius:21px;text-align: center;">
+                            <div style="height:9px;background:#FFC632;border-radius: 16px  16px  0px  0px ;"></div>
+                            <div style="margin-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/qq2.png" alt=""></div>
+                            <div style="color:#000;font-size:20px;line-height:28px;margin-top:25px;padding-bottom:13px;">100小时专业培训</div>
+                        </div>
                     </div>
-                    <div style="height:260px;width:300px;background:#fff;border-radius:21px;text-align: center;box-shadow:0px 4px 17px 2px rgba(234,233,233,0.5);">
-                        <div style="height:9px;background:#EF3434;border-radius: 16px  16px  0px  0px ;"></div>
-                        <div style="margin-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/qq3.png" alt=""></div>
-                        <div style="color:#000;font-size:20px;line-height:28px;margin-top:25px;padding-bottom:13px;">80%的老师来自东京</div>
-                        
-                        
+
+                    <div style="height:260px;width:300px;position: relative;">
+                        <div class="hovermix" style="height:100%;width:100%;background:#fff;border-radius:21px;text-align: center;">
+                            <div style="height:9px;background:#EF3434;border-radius: 16px  16px  0px  0px ;"></div>
+                            <div style="margin-top:53px;"><img style="height:100px;width:100px;" src="../../images/indeximg/qq3.png" alt=""></div>
+                            <div style="color:#000;font-size:20px;line-height:28px;margin-top:25px;padding-bottom:13px;">80%的老师来自东京</div>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
@@ -276,6 +281,7 @@ export default {
     .bx{
         width: 1080px;
         margin: 0 auto;
+        
     }
     .logo{
         background: url('../../images/indeximg/pclogo.png') no-repeat center center;
@@ -316,7 +322,7 @@ export default {
 
         }
         div:hover{
-            color: #EF3434;
+            background: #eee;
         }
         
     }
@@ -419,6 +425,16 @@ export default {
     margin: 0px auto;
     margin-bottom: 10px;
 
+}
+.hovermix{
+    box-shadow:0px 4px 17px 2px rgba(234,233,233,0.5);
+    
+}
+.hovermix:hover{
+    position: absolute;
+    top: -6px;
+    box-shadow: #ccc 0px 4px 20px 5px;
+    
 }
 
 
